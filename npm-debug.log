@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\Administrator\\AppData\\Local\\atom\\app-1.9.9\\resources\\app\\apm\\bin\\node.exe',
+1 verbose cli   'C:\\Users\\Administrator\\AppData\\Local\\atom\\app-1.9.9\\resources\\app\\apm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--globalconfig',
+1 verbose cli   'C:\\Users\\Administrator\\.atom\\.apm\\.apmrc',
+1 verbose cli   '--userconfig',
+1 verbose cli   'C:\\Users\\Administrator\\.atom\\.apmrc',
+1 verbose cli   'install',
+1 verbose cli   '--target=0.37.8',
+1 verbose cli   '--arch=ia32' ]
+2 info using npm@2.13.3
+3 info using node@v0.10.40
+4 verbose readDependencies loading dependencies from E:\Jax\python\awesome-python3-webapp\package.json
+5 error install Couldn't read dependencies
+6 verbose stack Error: ENOENT, open 'E:\Jax\python\awesome-python3-webapp\package.json'
+7 verbose cwd E:\Jax\python\awesome-python3-webapp
+8 error Windows_NT 6.1.7601
+9 error argv "C:\\Users\\Administrator\\AppData\\Local\\atom\\app-1.9.9\\resources\\app\\apm\\bin\\node.exe" "C:\\Users\\Administrator\\AppData\\Local\\atom\\app-1.9.9\\resources\\app\\apm\\node_modules\\npm\\bin\\npm-cli.js" "--globalconfig" "C:\\Users\\Administrator\\.atom\\.apm\\.apmrc" "--userconfig" "C:\\Users\\Administrator\\.atom\\.apmrc" "install" "--target=0.37.8" "--arch=ia32"
+10 error node v0.10.40
+11 error npm  v2.13.3
+12 error path E:\Jax\python\awesome-python3-webapp\package.json
+13 error code ENOPACKAGEJSON
+14 error errno 34
+15 error package.json ENOENT, open 'E:\Jax\python\awesome-python3-webapp\package.json'
+15 error package.json This is most likely not a problem with npm itself.
+15 error package.json npm can't find a package.json file in your current directory.
+16 verbose exit [ 34, true ]
