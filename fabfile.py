@@ -9,6 +9,7 @@ def build():
     '''
     设置build环境
     '''
+    env.user = 'root'
     env.hosts = ['60.205.190.223']
     env.password = "Jax@gmail.com"
 
