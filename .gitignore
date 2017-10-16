@@ -52,3 +52,5 @@ MANIFEST
 .mr.developer.cfg
 .project
 .pydevproject
+
+fabfile.py
