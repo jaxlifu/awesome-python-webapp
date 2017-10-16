@@ -18,10 +18,14 @@ def prepare():
     '''
     提交本地代码,准备部署,remote 和 branch更据自己需求修改
     '''
-    local("git pull webapp master")
-    local("pip freeze > requirements.txt")
-    local("git add . -A && git commit")
-    local("git push webapp master")
+    pull = local("git pull webapp master")
+    print("pull result ==> %s" % pull)
+    freeze = local("pip freeze > requirements.txt")
+    print("freeze result ==> %s" % freeze)
+    commit = local("git add . -A && git commit")
+    print("commit result ==> %s" % commit)
+    push = local("git push webapp master")
+    print("push result ==> %s" % push)
 
 
 def update():

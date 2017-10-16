@@ -53,4 +53,4 @@ MANIFEST
 .project
 .pydevproject
 
-fabfile.py
+./fabfile.py
