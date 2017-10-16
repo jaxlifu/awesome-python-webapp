@@ -8,7 +8,7 @@ def build():
     '''
     设置build环境
     '''
-    env.hosts = ["root@jax-aliyun"]
+    env.hosts = "root@jax-aliyun"
     env.password ="Jax@gmail.com"
 def prepare():
     '''
